@@ -1,0 +1,206 @@
+body {
+    font-size: 20px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#body{
+  display: none;
+}
+#key-table{
+  background-color: #404040;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+}
+#key-tr{
+  background-color: #949494;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+#key-tr2{
+  background-color: #949494;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: auto;
+  margin-right: auto;
+}
+#key-tr3{
+  background-color: #949494;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: auto;
+  margin-right: auto;
+}
+#key-td{
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+#key-td:hover{
+  background-color: #808080;
+}
+#key-td:active{
+  background-color: #6d6d6d;
+}
+#keys{
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  margin: 0%;
+  padding: 0%;
+  margin-bottom: 5px;
+  background-color: #494949;
+  border:none;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 3px;
+  border-right: solid 2px #303030;
+  border-bottom: solid 2px #303030;
+}
+#keys:hover{
+  background-color: #383838;
+  border-right: solid 2px #525252;
+  border-bottom: solid 2px #525252;
+}
+#keys:active{
+  background-color: #1f1f1f;
+  border: none;
+}
+#keys-top{
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  margin: 0%;
+  padding: 0%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background-color: #494949;
+  border:none;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 3px;
+  border-right: solid 2px #303030;
+  border-bottom: solid 2px #303030;
+}
+#keys-top:hover{
+  background-color: #383838;
+  border-right: solid 2px #525252;
+  border-bottom: solid 2px #525252;
+}
+#keys-top:active{
+  background-color: #1f1f1f;
+  border: none;
+}
+#spacebar{
+  width: 190px;
+  border-radius: 3px;
+  height: 30px;
+  margin: 0%;
+  padding: 0%;
+  margin-bottom: 5px;
+  background-color: #494949;
+  border:none;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-right: solid 2px #303030;
+  border-bottom: solid 2px #303030;
+}
+#spacebar:hover{
+  background-color: #383838;
+  border-right: solid 2px #525252;
+  border-bottom: solid 2px #525252;
+}
+#spacebar:active{
+  background-color: #1f1f1f;
+  border: none;
+}
+#keyboard{
+  text-align: center;
+  background-color: rgb(138, 138, 138);
+  display: inline-block;
+  padding: 5px 35px;
+  border-radius: 5px;
+  height: 210px;
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+#align-keyboard{
+  text-align: center;
+}
+#input{
+  outline: none;
+  background-color: #161616;
+  border: none;
+  height: 40px;
+  width: 350px;
+  border-radius: 5px;
+  color: white;
+  padding-left: 10px;
+  border: solid 1px rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#input:focus{
+  border: solid 1px rgb(145, 255, 0);
+}
+#align-input{
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+#keyboard-demo{
+  border: solid 3px rgb(255, 255, 255);
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.185);
+}
+#kb-demo-align{
+  text-align: center;
+}
+.fa-spinner{
+  color: rgb(81, 255, 0);
+  animation: loader;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  font-size: 50px;
+  margin-top: 275px;
+}
+#preloader{
+  text-align: center;
+  height: 550px;
+}
+
+@keyframes loader {
+  0%{
+    transform: rotate(1800deg);
+  }
+}
+@keyframes bodydisplay {
+  0%{
+    opacity: 0%;
+    transform: translateY(-300px);
+  }
+}
