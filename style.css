@@ -1,9 +1,21 @@
 body {
-    font-size: 20px;
-    color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  font-size: 20px;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-track{
+  background-color: #999999;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #5a5a5a;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: #4e4e4e;
 }
 #body{
   display: none;
@@ -67,16 +79,14 @@ body {
   font-size: 20px;
   text-align: center;
   border-radius: 3px;
-  border-right: solid 2px #303030;
-  border-bottom: solid 2px #303030;
+  border-right: solid 2px #555555;
+  border-bottom: solid 2px #555555;
 }
 #keys:hover{
-  background-color: #383838;
-  border-right: solid 2px #525252;
-  border-bottom: solid 2px #525252;
+  background-color: #444444;
 }
 #keys:active{
-  background-color: #1f1f1f;
+  background-color: #666666;
   border: none;
 }
 #keys-top{
@@ -94,16 +104,14 @@ body {
   font-size: 18px;
   text-align: center;
   border-radius: 3px;
-  border-right: solid 2px #303030;
-  border-bottom: solid 2px #303030;
+  border-right: solid 2px #555555;
+  border-bottom: solid 2px #555555;
 }
 #keys-top:hover{
-  background-color: #383838;
-  border-right: solid 2px #525252;
-  border-bottom: solid 2px #525252;
+  background-color: #444444;
 }
 #keys-top:active{
-  background-color: #1f1f1f;
+  background-color: #666666;
   border: none;
 }
 #spacebar{
@@ -120,23 +128,60 @@ body {
   font-size: 20px;
   text-align: center;
   cursor: pointer;
-  border-right: solid 2px #303030;
-  border-bottom: solid 2px #303030;
+  border-right: solid 2px #555555;
+  border-bottom: solid 2px #555555;
 }
 #spacebar:hover{
-  background-color: #383838;
-  border-right: solid 2px #525252;
-  border-bottom: solid 2px #525252;
+  background-color: #444444;
 }
 #spacebar:active{
-  background-color: #1f1f1f;
+  background-color: #666666;
+  border: none;
+}
+#symbol-keyv{
+  width: 550px;
+  height: 60px;
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  bottom:30%;
+  background-color: #252525;
+  padding: 5px;
+  padding-top: 8px;
+  border-radius: 5px;
+  overflow:auto;
+  white-space: nowrap;
+}
+#keys-flex{
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  margin: 0%;
+  padding: 0%;
+  margin-right: 2px;
+  margin-top: 5px;
+  background-color: #494949;
+  border:none;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 3px;
+  border-right: solid 2px #555555;
+  border-bottom: solid 2px #555555;
+}
+#keys-flex:hover{
+  background-color: #444444;
+}
+#keys-flex:active{
+  background-color: #666666;
   border: none;
 }
 #keyboard{
   text-align: center;
-  background-color: rgb(138, 138, 138);
+  background-color: rgb(39, 39, 39);
   display: inline-block;
-  padding: 5px 35px;
+  padding: 5px 40px;
   border-radius: 5px;
   height: 210px;
   cursor: default;
@@ -162,12 +207,12 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #input:focus{
-  border: solid 1px rgb(145, 255, 0);
+border: solid 1px rgb(145, 255, 0);
 }
 #align-input{
-  text-align: center;
-  margin-bottom: 15px;
-  margin-top: 5px;
+text-align: center;
+margin-bottom: 15px;
+margin-top: 5px;
 }
 #keyboard-demo{
   border: solid 3px rgb(255, 255, 255);
@@ -178,29 +223,28 @@ body {
   background-color: rgba(255, 255, 255, 0.185);
 }
 #kb-demo-align{
-  text-align: center;
+text-align: center;
 }
 .fa-spinner{
-  color: rgb(81, 255, 0);
-  animation: loader;
-  animation-duration: 3s;
-  animation-timing-function: ease-in;
-  font-size: 50px;
-  margin-top: 275px;
+color: rgb(81, 255, 0);
+animation: loader;
+animation-duration: 3s;
+animation-timing-function: ease-in;
+font-size: 50px;
+margin-top: 275px;
 }
 #preloader{
-  text-align: center;
-  height: 550px;
+text-align: center;
+height: 550px;
 }
 
 @keyframes loader {
-  0%{
-    transform: rotate(1800deg);
-  }
+0%{
+  transform: rotate(1800deg);
+}
 }
 @keyframes bodydisplay {
   0%{
     opacity: 0%;
-    transform: translateY(-300px);
   }
 }
