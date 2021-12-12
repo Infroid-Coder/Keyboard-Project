@@ -199,3 +199,161 @@ function selectAll() {
     let outputField = document.getElementsByTagName("input");
     outputField[0].select();
 }
+function backSpace(){
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value = outputField[0].value.substring(0 , outputField[0].value.length - 1);
+    outputField[0].focus();
+}
+function Copy() {
+    let outputField = document.getElementsByTagName("input");
+    let targetElem = document.querySelector(".fa-arrow-up");
+    outputField[0].focus();
+    outputField[0].select();
+    outputField[0].setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(outputField[0].value);
+}
+function textClear() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].focus();
+    outputField[0].value = "";
+}
+function symbol1() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "~";
+    outputField[0].focus();
+}
+function symbol2() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "!";
+    outputField[0].focus();
+}
+function symbol3() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "@";
+    outputField[0].focus();
+}
+function symbol4() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "#";
+    outputField[0].focus();
+}
+function symbol5() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "$";
+    outputField[0].focus();
+}
+function symbol6() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "%";
+    outputField[0].focus();
+}
+function symbol7() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "^";
+    outputField[0].focus();
+}
+function symbol8() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "&";
+    outputField[0].focus();
+}
+function symbol9() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "*";
+    outputField[0].focus();
+}
+function symbol10() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "(";
+    outputField[0].focus();
+}
+function symbol11() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += ")";
+    outputField[0].focus();
+}
+function symbol12() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "_";
+    outputField[0].focus();
+}
+function symbol13() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "+";
+    outputField[0].focus();
+}
+function symbol14() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "{";
+    outputField[0].focus();
+}
+function symbol15() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "}";
+    outputField[0].focus();
+}
+function symbol16() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "<";
+    outputField[0].focus();
+}
+function symbol17() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += ">";
+    outputField[0].focus();
+}
+function symbol18() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += ":";
+    outputField[0].focus();
+}
+function symbol19() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += ";";
+    outputField[0].focus();
+}
+function symbol20() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += '"';
+    outputField[0].focus();
+}
+function symbol21() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "'";
+    outputField[0].focus();
+}
+function symbol22() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "?";
+    outputField[0].focus();
+}
+function symbol23() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "/";
+    outputField[0].focus();
+}
+function symbol24() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += ".";
+    outputField[0].focus();
+}
+function symbol25() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += ",";
+    outputField[0].focus();
+}
+function symbol26() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "[";
+    outputField[0].focus();
+}
+function symbol27() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "]";
+    outputField[0].focus();
+}
+function symbol28() {
+    let outputField = document.getElementsByTagName("input");
+    outputField[0].value += "|";
+    outputField[0].focus();
+}
